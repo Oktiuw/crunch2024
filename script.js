@@ -1,2 +1,2 @@
 document.getElementById('launchBot').addEventListener('click', function() {
-    window.open('https://mediafiles.botpress.cloud/166cb92f-c2b8-4937-9670-923b62d2a7c4/webchat/bot.html', '_blank');})
+    window.open('https://mediafiles.botpress.cloud/204b3059-4cfb-4b35-a4e9-490778f902e3/webchat/bot.html', '_blank');})
