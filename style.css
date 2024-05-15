@@ -1,18 +1,50 @@
-body{
-    min-height: 100%;
-    min-width: 100%;
-}
+
 iframe#bp-web-widget{
-    left: 30vh;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 header{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding-top: 30px;
 }
 #logochat{
     width: 100px;
     height: 100px;
 }
 
+.centered {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    top: 40%;
+}
+h1#main{
+    color: white;
+    font-size: 35px;
+}
+.btn-large{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.background-image {
+    background-image: url('https://www.myweekly.co.uk/wp-content/uploads/sites/9/2018/09/iStock-847469470-main-compost-x.jpg');
+    background-size: cover; /* Redimensionne l'image pour couvrir tout l'élément */
+    background-position: center; /* Centre l'image */
+    width: 100%;
+    height: 100vh; 
+    filter: brightness(25%) blur(4px);
+    position: absolute;
+    z-index: -2;
+}
+
+footer{
+    position: absolute;
+    top: 80%;
+    left: 47%;
+}
